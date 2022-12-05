@@ -1,0 +1,245 @@
+body{
+    margin: 0px;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(240, 240, 240);
+}
+.nav-container>div{
+    position: relative;
+    top: 46px;
+    left: 12vw;
+}
+.nav-container span{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:500;
+}
+#comapany_info{
+    z-index: 10;
+}
+
+.nav-container{
+    /* margin-bottom: 30px; */
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+    /* background-color: green; */
+}
+#nav-icons{
+    /* background-color: red; */
+   position: absolute;
+   top: 40px;
+   margin-left: 75vw;
+   width: 10vw;
+
+}
+#nav-icons > img{
+    border-radius: 6px;
+    margin-left: 10px;
+    padding: 4px;
+    background-color: rgb(180, 180, 180);
+}
+.navbar{
+    position: relative;
+    bottom: 20px;
+    /* left: 5vw; */
+    /* background-color: red; */
+    width: 60vw;
+    margin-left: 20vw;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    padding-right: 30vw;
+
+}
+.nav-items{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-items:hover{
+    color: orange;
+    cursor: pointer;
+}
+#f_image{
+    position: absolute;
+    top: 20vh;
+}
+#first_page{
+    position:absolute;
+    top: 36vh;
+    left: 70vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+}
+#first_page{
+    width: 50vw;
+}
+#first_page h2{
+font-size: 30px;
+width: 50vw;
+position: relative;
+left: 10vw;
+}
+#first_page button{
+    width: 120px;
+    height: 40px;
+    background-color:transparent;
+    border-radius: 8px;
+}
+button:hover{
+ background-color: rgb(0, 0, 0);
+color: rgb(255, 140, 0);
+}
+#second_page{
+    position: absolute;
+    top: 90vh;
+    left: 12vw;
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    background-color: white;
+}
+#customer
+{
+    border-radius:50% ;
+    height: 70px;
+}
+#rating{
+    width: 160px;
+}
+.card{
+    width: 20vw;
+    /* border: 2px solid rgb(248, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+    right: 20vw;
+    margin-left: 40px;
+    width: 30vw;
+    overflow: hidden;
+    box-shadow: 2px 2px rgb(130, 130, 130);
+    background-color: white;
+    
+}
+.card h2,p{
+    width:18vw;
+}
+.card button{
+   background-color: transparent;
+   width:90px;
+   height:30px;
+   border-radius: 7px;
+}
+
+#third_page{
+    position:absolute;
+    top: 150vh;
+    /* border: 2px solid green; */
+   display: flex;
+
+}
+#third_page h1{
+    width: 20vw;
+    position: relative;
+    left: 45vw;
+    bottom: 4px;
+}
+.flex1{
+display: flex;
+height:80vh;
+width:230vh;
+/* right:20px; */
+background-color:white;
+position:relative;
+/* bottom:201.8vh; */
+bottom:30vh;
+overflow: hidden;
+position: absolute;
+top: 250vh;
+justify-content: center
+}
+#sf{
+color:black;
+position:relative;
+top: 10vh;
+font-size:30px;
+left:5vw;
+
+
+}
+#logo11{
+position: relative;
+top:6vh;
+/* left:vh; */
+right: 30vh;
+}
+#head1{
+color:black;
+position: relative;
+top:1vh;
+/* left:px; */
+}
+#company_n{
+color: black;
+position: relative;
+/* top: 30vh; */
+/* left:8vw; */
+font-size: 20px;
+top: 35px;
+
+}
+#head2{
+color: black;
+position: relative;
+top:1vh;
+/* left:px; */
+}
+#commu{
+color: black;
+position: relative;
+top:35px;
+left:13vw;
+font-size: 20px;
+}
+#head3{
+color:black;
+position: relative;
+top:1vh;
+/* left:px; */
+}
+#use{
+color: black;
+position: relative;
+top:29.8vh;
+left:38vw;
+font-size: 20px;
+}
+#logo22{
+position: relative;
+/* top:20vh; */
+/* top: 29.8vh; */
+/* left ; */
+top:30vh;
+right:120vh;
+
+
+}
+#foot{
+position: relative;
+top: 15vh;
+right:20vh;
+
+}
